@@ -1,18 +1,4 @@
-public class MyTestClass {
-    @Override
-    public String toString() {
-        return super.toString();
-    }
-
-    @Override
-    public int hashCode() {
-        return super.hashCode();
-    }
-
-    public static void main(String[] args) {
-        int[] array = new int[]{10, 50, 20, 40};
-        summElem(array);
-    }
+public class myClass {
 
     public  int plusNumber(int a, int b){
         int res = a + b;
