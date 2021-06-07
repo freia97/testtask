@@ -41,4 +41,15 @@ public class myClass {
         return arr3;
     }
 
+    public static int[] evenNumbersReturn(int[] a){
+        int[] res = new int[a.length];
+        for (int item : a){
+            if (item % 2 == 0){
+                res[item] = item;
+            }
+            System.out.println(res);
+        }
+        return res;
+    }
+
 }
