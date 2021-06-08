@@ -1,5 +1,10 @@
 public class myClass {
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public  int plusNumber(int a, int b){
         int res = a + b;
          return res;
@@ -41,13 +46,13 @@ public class myClass {
         return arr3;
     }
 
-    public static int[] evenNumbersReturn(int[] a){
-        int[] res = new int[a.length];
-        for (int item : a){
-            if (item % 2 == 0){
-                res[item] = item;
+    public static int[] evenNumbersReturn(int[] arr){
+        int[] res = new int[arr.length];
+        for (int i = 0; i < arr.length; i++){
+            if (arr[i] %2 == 0){
+                res[i] = arr[i];
             }
-            System.out.println(res);
+            System.out.println(res.length);
         }
         return res;
     }
